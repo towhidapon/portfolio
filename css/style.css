@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+
+.hero-section{
+    background-image: url('../image/hero-banner.png');
+    background-repeat: no-repeat;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h1 span{
+    color: orange;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(60deg, lightsalmon, tomato);
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.second-section{
+    background-image: url('../image/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-area{
+    background-image: url(../image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-area div{
+    box-shadow: 5px 5px 40px lightgray;
+    padding-right: 20px;
+}
+
+.experience-area h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.experience-area h3{
+    color: orange;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#full-stack{
+    background-color: white;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+#wordpress{
+    border-left: 7px solid;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: orange;
+}
